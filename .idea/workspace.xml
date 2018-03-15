@@ -7,8 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3890c1a9-b239-4664-b266-d6824f4c48af" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/recipe_war.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -659,12 +657,20 @@
       <workItem from="1520672497792" duration="7477000" />
       <workItem from="1520770126217" duration="7563000" />
       <workItem from="1521034800801" duration="5928000" />
-      <workItem from="1521076385526" duration="245000" />
+      <workItem from="1521076385526" duration="273000" />
     </task>
+    <task id="LOCAL-00001" summary="apprehensive">
+      <created>1521076659311</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1521076659311</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42525000" />
+    <option name="totallyTimeSpent" value="42553000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -750,6 +756,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="apprehensive" />
+    <option name="LAST_COMMIT_MESSAGE" value="apprehensive" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

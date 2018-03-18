@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!--<!DOCTYPE note SYSTEM "note.dtd">-->
+<!DOCTYPE note [
+        <!ELEMENT note (to, from, heading, body, em, emp, an)>
+        <!--<!ELEMENT note (#PCDATA|to|from|header|message)*>-->
+        <!ELEMENT to (#PCDATA)>
+        <!ELEMENT from (#PCDATA)>
+        <!ELEMENT heading (#PCDATA)>
+        <!ELEMENT body (#PCDATA)>
+        <!ELEMENT em EMPTY>
+        <!ELEMENT emp EMPTY>
+        <!ELEMENT an ANY>
+        <!ELEMENT cc (#PCDATA)>
+        <!-- <!ATTLIST element-name attribute-name attribute-type attribute-value> -->
+
+]>
+<note>
+    <to>tt</to>
+    <from>ff</from>
+    <heading>hh</heading>
+    <body>bb</body>
+    <em/>
+    <emp></emp>
+    <an>xx<cc>33</cc></an>
+</note>

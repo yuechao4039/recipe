@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE root [
+        <!ELEMENT root (oid*, square, angel)>
+
+
+        <!ELEMENT oid (#PCDATA)>
+        <!ATTLIST oid id ID #IMPLIED>
+        <!ATTLIST oid idref IDREF #IMPLIED>
+        <!ATTLIST oid idrefs IDREFS #IMPLIED>
+        <!ATTLIST oid nmtoken NMTOKEN #IMPLIED>
+        <!ATTLIST oid nmtokens NMTOKENS #IMPLIED>
+        <!ATTLIST oid en ENTITY #IMPLIED>
+        <!ATTLIST oid ens ENTITIES #IMPLIED>
+        <!ATTLIST oid type NOTATION (gif|jpg) "gif">
+
+       <!--  xml: -->
+
+        <!NOTATION jpg SYSTEM "1.exe">
+        <!NOTATION gif SYSTEM "2.exe">
+
+        <!ELEMENT square EMPTY>
+        <!ATTLIST square width CDATA "0">
+        <!ATTLIST square height CDATA #REQUIRED>
+        <!ATTLIST square fax CDATA #IMPLIED>
+        <!ATTLIST square company CDATA #FIXED "Microsoft">
+        <!ATTLIST square type (check|cash) "cash">
+
+        <!ELEMENT angel (#PCDATA)>
+
+        <!ENTITY aa "bb">
+        <!ENTITY EMAIL "jd@jd-tools.com">
+
+        ]>
+
+<root>
+    <oid  idref="ttt" ></oid>
+    <oid id="ttt"></oid>
+    <oid id="sss"></oid>
+    <oid idrefs="ttt sss"></oid>
+    <oid nmtoken="squarexxxx"></oid>
+    <oid nmtokens="square angle  sdfsdf"></oid>
+    <square width="120" height="33" ></square>
+    <angel><![CDATA[<greeting>Hello, world!</greeting>]]></angel>
+</root>

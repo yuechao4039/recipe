@@ -6,9 +6,6 @@
         <element id="directory" name="classes">
           <element id="module-output" name="recipe" />
         </element>
-        <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: org.jboss.weld.servlet:weld-servlet:1.1.10.Final" />
-        </element>
       </element>
       <element id="directory" name="META-INF">
         <element id="file-copy" path="$PROJECT_DIR$/target/recipe/META-INF/MANIFEST.MF" />

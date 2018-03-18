@@ -5,17 +5,6 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
 
-    <!--<listener>
-        <listener-class>com.sndj.recipe.listener.PongNer</listener-class>
-    </listener>
-    <listener>
-        <listener-class>com.sndj.recipe.listener.HorribleNer</listener-class>
-    </listener>-->
-
-    <listener>
-        <listener-class>org.jboss.weld.environment.servlet.Listener</listener-class>
-    </listener>
-
 
 
 </web-app>

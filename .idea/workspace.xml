@@ -7,39 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3890c1a9-b239-4664-b266-d6824f4c48af" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/jaxws/rs/HelloWorld.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/jaxws/rs/HelloWorldClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/jaxws/rs/HelloWorldImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/jaxws/rs/HelloWorldPublisher.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/jndi/BindServlet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/jndi/ContextUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/jndi/JndiServlet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/jndi/LookUpServlet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/jndi/package-info.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/listener/package-info.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/xml/CATALOG.dtd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/xml/cata.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/xml/news.dtd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/xml/news.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/xml/note.dtd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/xml/note.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/xml/tv.dtd" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/xml/tv.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/xml/variant.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/recipe_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/recipe_war_exploded.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_weld_servlet_weld_servlet_1_1_10_Final.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/recipe.iml" afterPath="$PROJECT_DIR$/recipe.iml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/cdi/MessageServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/cdi/MessageServlet.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/jaxws/HelloService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/jaxws/Main.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/servlet/CharaterEncodingFilter.java" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/servlet/CharaterEncodingFilter.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/servlet/Numeric.java" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/servlet/Numeric.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/beans.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/xml/CATALOG.dtd" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/xml/cata.dtd" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -763,7 +732,7 @@
       <workItem from="1521162056160" duration="4260000" />
       <workItem from="1521207404987" duration="5025000" />
       <workItem from="1521260316065" duration="6209000" />
-      <workItem from="1521355881461" duration="16440000" />
+      <workItem from="1521355881461" duration="17692000" />
     </task>
     <task id="LOCAL-00001" summary="apprehensive">
       <created>1521076659311</created>
@@ -786,11 +755,18 @@
       <option name="project" value="LOCAL" />
       <updated>1521076678701</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="xml">
+      <created>1521382637503</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1521382637503</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89224000" />
+    <option name="totallyTimeSpent" value="90476000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -822,7 +798,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5455608" sideWeight="0.49785867" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37967288" sideWeight="0.49785867" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30140188" sideWeight="0.49785867" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24678801" sideWeight="0.4675835" order="5" side_tool="false" content_ui="combo" />
@@ -908,7 +884,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="apprehensive" />
-    <option name="LAST_COMMIT_MESSAGE" value="apprehensive" />
+    <MESSAGE value="xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1062,6 +1039,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1069,6 +1047,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1098,6 +1077,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1126,6 +1106,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1133,6 +1114,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="72" lean-forward="false" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1147,6 +1131,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1154,6 +1141,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1221,14 +1209,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/xml/CATALOG.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/xml/news.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -1249,6 +1229,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
           <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/xml/cata.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding />
         </state>
       </provider>

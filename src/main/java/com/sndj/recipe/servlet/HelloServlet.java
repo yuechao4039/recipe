@@ -16,6 +16,10 @@ public class HelloServlet extends HttpServlet {
     public final String bb = "bb";
     private String cc = "cc";
     String dd = "dd";
+
+    public HelloServlet() {
+        System.out.println("HelloServlet invoked !!!");
+    }
     @Override
     public void init() throws ServletException {
         System.out.println("init invoked !!!");

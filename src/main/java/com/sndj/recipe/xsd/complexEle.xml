@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<employee sex="male" xmlns="www.sndj.com/complexEle" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="www.sndj.com/complexEle complexEle.xsd">
+    <firstname>xx</firstname>
+    <lastname>ll</lastname>
+    <address>xx</address>
+    <city>ss</city>
+    <country>dd</country>
+</employee>
+

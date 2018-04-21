@@ -1,0 +1,33 @@
+﻿PCDATA 的意思是被解析的字符数据（parsed character data）。
+
+
+CDATA 的意思是字符数据（character data）。
+
+CDATA 是不会被解析器解析的文本
+
+空元素通过类别关键词EMPTY进行声明：
+通过类别关键词 ANY 声明的元素，可包含任何可解析数据的组合：
+
+
+<!ATTLIST element-name attribute-name attribute-type #REQUIRED> 
+<!ATTLIST element-name attribute-name attribute-type #IMPLIED>
+<!ATTLIST element-name attribute-name attribute-type #FIXED "value"> 
+<!ATTLIST square width CDATA "0">
+<!ATTLIST element-name attribute-name (en1|en2|..) default-value>
+
+
+<!ENTITY entity-name "entity-value">
+<!ENTITY entity-name SYSTEM "URI/URL">
+
+公共标识符
+"-//W3C//DTD XHTML 1.0 Transitional//EN"
+"-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+<!-- 前缀//所有者//类型 标签描述//语言//显示版本>
+<!--
++ 组织名称已注册  - 组织名称未注册  注：注册指组织是否由国际标准化组织注册。
+组织（所有者）：公司、单位、组织的名称。
+类型：表明该公共标识符所关联的文档的实际类型（比如超文本标记语言）。
+标签描述：所关联的文档的简要说明。该描述可以是任何字符串，当然其中不应包含作为分隔符的“//”。（比如超文本5）。
+语言：说明文档基于何种语言书写，通常使用国际标准化组织标准的两字母语言代码。
+显示版本：该项目使用较少，用于说明文档是针对特定显示设备或者特定系统的。
+-->

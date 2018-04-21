@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<note xmlns="http://www.sndj.com/note"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+        xsd:schemaLocation="http://www.sndj.com/note note.xsd">
+    <to>Tove</to>
+    <from>Jani</from>
+    <heading>Reminder</heading>
+    <body>Don't forget me this weekend!</body>
+</note>

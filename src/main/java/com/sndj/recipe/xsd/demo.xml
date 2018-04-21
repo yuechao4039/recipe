@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<str xmlns="http://www.sndj.com/demo"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+     xsd:schemaLocation="http://www.sndj.com/demo demo.xsd">
+    <dec>11.11</dec>
+    <int>3</int>
+    <bol>true</bol>
+    <color>green</color>
+    <watercolor>black</watercolor>
+
+</str>

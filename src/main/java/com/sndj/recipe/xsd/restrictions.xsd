@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="www.sndj.com/restrictions"
+            xmlns="www.sndj.com/restrictions"
+            >
+    
+
+    <xsd:element name="age">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:integer">
+                <xsd:minInclusive value="0"></xsd:minInclusive>
+                <xsd:maxInclusive value="20"></xsd:maxInclusive>
+            </xsd:restriction>
+        </xsd:simpleType>
+
+    </xsd:element>
+
+
+    <!--<xsd:element name="car">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+                <xsd:enumeration value="BMW"></xsd:enumeration>
+                <xsd:enumeration value="Gold"></xsd:enumeration>
+                <xsd:enumeration value="Audi"></xsd:enumeration>
+            </xsd:restriction>
+        </xsd:simpleType>
+    </xsd:element>-->
+
+    <xsd:element name="car" type="carType"></xsd:element>
+
+    <xsd:simpleType name="carType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="BMW"></xsd:enumeration>
+            <xsd:enumeration value="Gold"></xsd:enumeration>
+            <xsd:enumeration value="Audi"></xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:element name="letter">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+                <!--<xsd:pattern value="[a-z]"></xsd:pattern>-->
+                <xsd:pattern value="([a-z])*"/>
+                <xsd:pattern value="([a-z][A-Z])+"/>
+            </xsd:restriction>
+        </xsd:simpleType>
+    </xsd:element>
+
+    <xsd:element name="initials">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+                <!--<xsd:pattern value="[A-Z][A-Z][A-Z]"/>-->
+                <xsd:pattern value="[a-zA-Z][a-zA-Z][a-zA-Z]"/>
+            </xsd:restriction>
+        </xsd:simpleType>
+    </xsd:element>
+
+    <xsd:element name="choice">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+                <xsd:pattern value="[xyz]"/>
+            </xsd:restriction>
+        </xsd:simpleType>
+    </xsd:element>
+
+    <xsd:element name="prodid">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:integer">
+                <xsd:pattern value="[0-9][0-9][0-9][0-9][0-9]"/>
+            </xsd:restriction>
+        </xsd:simpleType>
+    </xsd:element>
+
+    <xsd:element name="gender">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+                <xsd:pattern value="male|female"/>
+            </xsd:restriction>
+        </xsd:simpleType>
+    </xsd:element>
+
+    <xsd:element name="password">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+                <!--<xsd:pattern value="[a-zA-Z0-9]{8}"/>-->
+                <!--<xsd:length value="8"/>-->
+                <xsd:minLength value="5"/>
+                <xsd:maxLength value="8"/>
+            </xsd:restriction>
+        </xsd:simpleType>
+    </xsd:element>
+
+    <xsd:element name="address">
+        <xsd:simpleType>
+            <xsd:restriction base="xsd:string">
+                <!--<xsd:whiteSpace value="preserve"/>-->
+                <!--<xsd:whiteSpace value="replace"/>-->
+                <xsd:whiteSpace value="collapse"/>
+            </xsd:restriction>
+        </xsd:simpleType>
+    </xsd:element>
+</xsd:schema>

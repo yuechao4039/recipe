@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="www.sndj.com/emptyEle">
+    <!--<xs:element name="product">
+        <xs:complexType>
+            <xs:complexContent>
+                <xs:restriction base="xs:integer">
+                    <xs:attribute name="proid" type="xs:positiveInteger"></xs:attribute>
+                </xs:restriction>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:element>-->
+
+    <!--<xs:element name="product">
+        <xs:complexType>
+            <xs:attribute name="proid" type="xs:positiveInteger"></xs:attribute>
+        </xs:complexType>
+    </xs:element>-->
+
+    <xs:element name="product" type="prodtype"></xs:element>
+    
+    <xs:complexType name="prodtype">
+        <xs:attribute name="proid"></xs:attribute>
+    </xs:complexType>
+</xs:schema>

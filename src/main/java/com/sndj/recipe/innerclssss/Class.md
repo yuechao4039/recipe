@@ -1,4 +1,4 @@
-CLASS
+java.lang.Class
 ================
 
 
@@ -106,7 +106,8 @@ public com.sndj.recipe.innerclssss.TestClass$BeanB(com.sndj.recipe.innerclssss.T
 3. 如果当前Class对象是一个接口或原生数据类型或一个数组或为void，数组长度为零。
 
 
-
+内部类相关
+---
 ##### public Class<?>[] getClasses()
 1. 返回当前Class及父类的所有public成员内部类和public成员内部接口
 ```java

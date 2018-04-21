@@ -10,7 +10,7 @@ Filed 相关
 3. 如果当前Class对象为数组类型或原生数据类型或void类型，则返回一个空数组.
 4. 如果类或接口没有任何public成员，则返回空数组.
 
-``` java
+```java
 public class TestClass {
 
     public class BeanA extends BeanB implements  BeanC {
@@ -64,7 +64,7 @@ Constructor相关
 1. 根据Class参数数组parameterTypes查找当前Class里面的对应的public构造器
 2. 如果当前Class是一个成员内部类,参数数组第一个入参是外部类的Class对象.
 3. 如果没有找到则抛NoSuchMethodException
-``` java
+```java
 public class TestClass {
 
     public class BeanA {
@@ -83,7 +83,6 @@ public class TestClass {
         System.out.println(BeanB.class.getConstructor(BeanA.class.getDeclaringClass(), String.class));
     }
 }
-</code>
 ```
 > Result:
 public com.sndj.recipe.innerclssss.TestClass$BeanA(com.sndj.recipe.innerclssss.TestClass)
@@ -110,7 +109,7 @@ public com.sndj.recipe.innerclssss.TestClass$BeanB(com.sndj.recipe.innerclssss.T
 
 ##### public Class<?>[] getClasses()
 1. 返回当前Class及父类的所有public成员内部类和public成员内部接口
-``` java
+```java
 public class TestClass {
 
     public class BeanA {

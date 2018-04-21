@@ -5,10 +5,10 @@ CLASS
 Filed 相关
 ------------
 #####getFields()
->1.获取一个类及其所有父类和所有接口的所有 public 成员.
->2.获取一个接口及其所有父接口的 public 成员.
->3.如果当前Class对象为数组类型或原生数据类型或void类型，则返回一个空数组.
->4.如果类或接口没有任何public成员，则返回空数组.
+1. 获取一个类及其所有父类和所有接口的所有 public 成员.
+2. 获取一个接口及其所有父接口的 public 成员.
+3. 如果当前Class对象为数组类型或原生数据类型或void类型，则返回一个空数组.
+4. 如果类或接口没有任何public成员，则返回空数组.
 
 <code>
 public class TestClass {
@@ -109,7 +109,7 @@ public com.sndj.recipe.innerclssss.TestClass$BeanB(com.sndj.recipe.innerclssss.T
 
 #####public Class<?>[] getClasses()
 1.返回当前Class及父类的所有public成员内部类和public成员内部接口
-<code>
+```java
 public class TestClass {
 
     public class BeanA {
@@ -147,7 +147,8 @@ interface Face {
 
     }
 }
-</code>
+```
+
 >Result
 interface com.sndj.recipe.innerclssss.SonClass$BeanB
 class com.sndj.recipe.innerclssss.SonClass$BeanA
@@ -163,17 +164,6 @@ class com.sndj.recipe.innerclssss.TestClass$BeanA
 1.返回当前类中的所有内部类和内部接口,修饰符可以是private public default protected
 2.如果当前类中没有则返回数组长度为零
 3.如果当前类是数组或原生数据类型或为空，返回数组长度为零
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
+
+#####public Class<?> getDeclaringClass()
+获取一个内部类或内部接口的外部内.

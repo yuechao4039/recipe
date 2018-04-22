@@ -1,14 +1,8 @@
 package com.sndj.recipe.innerclssss;
 
-import com.sndj.recipe.fastjson.A;
-import org.junit.Assert;
+import javafx.scene.Parent;
 import org.junit.Test;
-import org.springframework.beans.BeanUtils;
 
-import java.lang.annotation.*;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
-import java.lang.reflect.Modifier;
 import java.util.Arrays;
 
 /**
@@ -17,69 +11,54 @@ import java.util.Arrays;
 
 public class TestClass {
     @Test
-    public void getAnnotation() throws NoSuchMethodException {
-//        Arrays.asList(BeanB.class.getDeclaredAnnotations()).forEach(x -> {
-//            System.out.println(x);
-//        });
-        Arrays.asList(BeanB.class.getDeclaredAnnotationsByType(AnnoA.class)).forEach(x -> {
-            System.out.println(x);
-        });
-//        @com.sndj.recipe.innerclssss.AnnoA(value=CCC)
-        Arrays.asList(BeanB.class.getDeclaredAnnotationsByType(AnnoB.class)).forEach(x -> {
-            System.out.println(x);
-        });
-
-        Arrays.asList(BeanB.class.getDeclaredAnnotationsByType(AnnoC.class)).forEach(x -> {
-            System.out.println(x);
-        });
-//                @com.sndj.recipe.innerclssss.AnnoC(value=1111)
-//                @com.sndj.recipe.innerclssss.AnnoC(value=2222)
-
-        Arrays.asList(BeanB.class.getDeclaredAnnotationsByType(Container.class)).forEach(x -> {
-            System.out.println(x);
-        });
-//        @com.sndj.recipe.innerclssss.Container(value=[@com.sndj.recipe.innerclssss.AnnoC(value=1111), @com.sndj.recipe.innerclssss.AnnoC(value=2222)])
+    public void getInterfaces() throws Exception {
+        System.out.println(TestClass.class.getName());  // com.sndj.recipe.innerclssss.TestClass
+        System.out.println(Integer.class.getName()); // java.lang.Integer
+        System.out.println(float.class.getName()); // float
+        System.out.println(void.class.getName()); // void
     }
 }
 
-@Retention(value = RetentionPolicy.RUNTIME)
-@Inherited
-@Target(ElementType.TYPE)
+interface A extends C {
+
+}
+
+interface B {
+
+}
+
+interface C extends B {
+
+}
+
+enum EnumA {
+    GREEN, RED
+}
+
+enum EnumB {
+    JACK("jack"), TOM("tom");
+
+    private String name;
+
+    EnumB(String name) {
+        this.name = name;
+    }
+}
+
+
+interface Face {
+    class InnerA {
+
+    }
+}
+
 @interface AnnoA {
-    String value();
-}
-
-@Retention(value = RetentionPolicy.RUNTIME)
-@Inherited
-@Target(ElementType.TYPE)
-@interface AnnoB {
-    String value();
-}
-
-@AnnoB(value = "DDD")
-class BeanA {
 
 }
 
-@AnnoA(value = "CCC")
-@AnnoC("1111")
-@AnnoC("2222")
-class BeanB extends BeanA {
+class Son extends Parent implements Face {
 
 }
-
-@Repeatable(value = Container.class)
-@interface AnnoC {
-    String value();
-}
-
-@Retention(value = RetentionPolicy.RUNTIME)
-@interface Container {
-    AnnoC[] value();
-}
-
-
-
 
 
 

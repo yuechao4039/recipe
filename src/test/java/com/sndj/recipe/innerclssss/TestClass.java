@@ -12,10 +12,20 @@ import java.util.Arrays;
 public class TestClass {
     @Test
     public void getInterfaces() throws Exception {
-        System.out.println(TestClass.class.getName());  // com.sndj.recipe.innerclssss.TestClass
-        System.out.println(Integer.class.getName()); // java.lang.Integer
-        System.out.println(float.class.getName()); // float
-        System.out.println(void.class.getName()); // void
+        System.out.println(new int[3].getClass());
+        System.out.println(new int[3].getClass().getName());
+
+        System.out.println(new int[3][4].getClass());
+        System.out.println(new int[3][4].getClass().getName());
+
+        System.out.println(new TestClass[3].getClass());
+        System.out.println(new TestClass[3].getClass().getName());
+//        class [I
+//                [I
+//        class [[I
+//                [[I
+//        class [Lcom.sndj.recipe.innerclssss.TestClass;
+//        [Lcom.sndj.recipe.innerclssss.TestClass;
     }
 }
 

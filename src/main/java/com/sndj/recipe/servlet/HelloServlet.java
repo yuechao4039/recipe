@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Calendar;
 
-@WebServlet(name = "HelloServlet", urlPatterns = {"/hello", "/helloservlet"})
+//@WebServlet(name = "HelloServlet", urlPatterns = {"/hello"})
 public class HelloServlet extends HttpServlet {
     public static final String ss = "aa";
     public final String bb = "bb";

@@ -5,6 +5,7 @@ import java.util.Map;
 
 import ognl.Ognl;
 import junit.framework.TestCase;
+import org.junit.Test;
 
 /**
  * http://blog.csdn.net/mmm123lmj/article/details/4527898
@@ -147,5 +148,41 @@ public class OgnlTest extends TestCase {
 
         Ognl.getValue("setUsername('暗之幻影')", user);
         System.out.println(user.getUsername());
+    }
+
+    @Test
+    public void testaa() {
+        String str = "中";
+        // 4e2d
+        String asciiResult = stringToAscii(str);
+        System.out.println(asciiResult);
+        String stringResult = asciiToString(asciiResult);
+        System.out.println(stringResult);
+        System.out.println(Integer.toHexString(20013));
+    }
+    public static String stringToAscii(String value)
+    {
+        StringBuffer sbu = new StringBuffer();
+        char[] chars = value.toCharArray();
+        for (int i = 0; i < chars.length; i++) {
+            if(i != chars.length - 1)
+            {
+                sbu.append((int)chars[i]).append(",");
+            }
+            else {
+                sbu.append((int)chars[i]);
+            }
+        }
+        return sbu.toString();
+    }
+
+    public static String asciiToString(String value)
+    {
+        StringBuffer sbu = new StringBuffer();
+        String[] chars = value.split(",");
+        for (int i = 0; i < chars.length; i++) {
+            sbu.append((char) Integer.parseInt(chars[i]));
+        }
+        return sbu.toString();
     }
 }  

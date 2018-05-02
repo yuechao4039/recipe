@@ -1,6 +1,6 @@
-package com.sndj.recipe.spring;
-
-public interface HomeService {
-
-    public String home(HomeRequest req);
-}
+//package com.sndj.recipe.spring;
+//
+//public interface HomeService {
+//
+//    public String home(HomeRequest req);
+//}

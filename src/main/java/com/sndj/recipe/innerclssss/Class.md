@@ -473,7 +473,7 @@ public class TestClass {
 | long | J |
 | short | S |
 | class or interface | Lclassname; |
-> String.class.getName()
+<pre> String.class.getName()
           returns "java.lang.String"
       byte.class.getName()
           returns "byte"
@@ -481,6 +481,7 @@ public class TestClass {
           returns "[Ljava.lang.Object;"
       (new int[3][4][5][6][7][8][9]).getClass().getName()
           returns "[[[[[[[I"
+</pre>
 
 #### toString()
 1. 如果当前对象是类，则以class打头，接下来一个空格，再调用`getName()`方法

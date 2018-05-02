@@ -53,6 +53,25 @@
         <url-pattern>*.htmls</url-pattern>
     </servlet-mapping>
 
+
+    <servlet>
+        <servlet-name>hello</servlet-name>
+        <servlet-class>com.sndj.recipe.servlet.HelloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>hello</servlet-name>
+        <url-pattern>*.ss</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>hello</servlet-name>
+        <url-pattern>*.gs</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>hello</servlet-name>
+        <url-pattern>*.ps</url-pattern>
+    </servlet-mapping>
+
+
     <session-config>
         <session-timeout>30</session-timeout>
     </session-config>

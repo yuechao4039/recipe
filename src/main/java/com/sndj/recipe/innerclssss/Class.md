@@ -462,6 +462,7 @@ public class TestClass {
 2. 如果当前对象是原生数据类型或void，对应的java关键字将被返回。
 3. 如果当前对象是一个数组类型，由于`[`，打前缀表示数组的尝试，如果是一维数组则为`[`，
 如果是二维数组则为`[[`，以此类推，然后到数组元素类型，元素类型如下表。
+
 | Element Type | Encoding |
 | :- | :-: |
 | boolean | Z |
@@ -473,15 +474,16 @@ public class TestClass {
 | long | J |
 | short | S |
 | class or interface | Lclassname; |
-<pre> String.class.getName()
-          returns "java.lang.String"
-      byte.class.getName()
-          returns "byte"
-      (new Object[3]).getClass().getName()
-          returns "[Ljava.lang.Object;"
-      (new int[3][4][5][6][7][8][9]).getClass().getName()
-          returns "[[[[[[[I"
-</pre>
+
+* String.class.getName()
+*        returns "java.lang.String"
+*     byte.class.getName()
+*         returns "byte"
+*     (new Object[3]).getClass().getName()
+*         returns "[Ljava.lang.Object;"
+*     (new int[3][4][5][6][7][8][9]).getClass().getName()
+*         returns "[[[[[[[I"
+*
 
 #### toString()
 1. 如果当前对象是类，则以class打头，接下来一个空格，再调用`getName()`方法

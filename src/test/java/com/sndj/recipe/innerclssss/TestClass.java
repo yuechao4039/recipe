@@ -3,7 +3,9 @@ package com.sndj.recipe.innerclssss;
 import javafx.scene.Parent;
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 /**
  * @author yuechao 2018/4/20
@@ -11,64 +13,50 @@ import java.util.Arrays;
 
 public class TestClass {
     @Test
-    public void getInterfaces() throws Exception {
-        System.out.println(new int[3].getClass());
-        System.out.println(new int[3].getClass().getName());
+    public void test() throws Exception {
+        // generic type to raw type
+        Box<String> stringBox = new Box<>();
+        Box rawBox = stringBox;               // OK
+        rawBox.set(8);  // warning: unchecked invocation to set(T)
 
-        System.out.println(new int[3][4].getClass());
-        System.out.println(new int[3][4].getClass().getName());
+        // raw type to generic type
+        Box rawBox1 = new Box();           // rawBox is a raw type of Box<T>
+        Box<Integer> intBox = rawBox1;     // warning: unchecked conversion
 
-        System.out.println(new TestClass[3].getClass());
-        System.out.println(new TestClass[3].getClass().getName());
-//        class [I
-//                [I
-//        class [[I
-//                [[I
-//        class [Lcom.sndj.recipe.innerclssss.TestClass;
-//        [Lcom.sndj.recipe.innerclssss.TestClass;
+
+        List<String> list = new ArrayList<>();
+        list.add("aaa");
+        List rawList = list;
+        rawList.add(12);
+        rawList.forEach(System.out::println);
     }
 }
 
-interface A extends C {
+class Box<T> {
+    // T stands for "Type"
+    private T t;
 
-}
+    public void set(T t) {
+        this.t = t;
+    }
 
-interface B {
-
-}
-
-interface C extends B {
-
-}
-
-enum EnumA {
-    GREEN, RED
-}
-
-enum EnumB {
-    JACK("jack"), TOM("tom");
-
-    private String name;
-
-    EnumB(String name) {
-        this.name = name;
+    public T get() {
+        return t;
     }
 }
 
+class WildcardFixed{
+    void foo(List<?> i){
+        fooHelper(i);
+    }
 
-interface Face {
-    class InnerA {
-
+    // Helper method created so that the wildcard can be captured
+    // through type inference.
+    private <T> void fooHelper(List<T> l){
+        l.set(0, l.get(0)); // 传入参数也为 T，编译器推断为 CAP#1
     }
 }
 
-@interface AnnoA {
-
-}
-
-class Son extends Parent implements Face {
-
-}
 
 
 

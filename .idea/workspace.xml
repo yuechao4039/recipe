@@ -7,14 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3890c1a9-b239-4664-b266-d6824f4c48af" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/generictype/Demo.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/generictype/Demo1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/generictype/Tool.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/innerclssss/GenericType.md" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/doc/ParameterizedType.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/doc/Type.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/nio/Demo.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/innerclssss/TestDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/innerclssss/TestDemo.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/innerclssss/grammar.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/innerclssss/AnnotatedElement.md" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/doc/AnnotatedElement.md" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/innerclssss/Class.md" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/doc/Class.md" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/innerclssss/GenericType.md" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/doc/泛型.md" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/innerclssss/innerclass.md" afterPath="$PROJECT_DIR$/src/main/java/com/sndj/recipe/doc/内部类.md" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/sndj/recipe/innerclssss/TestClass.java" afterPath="$PROJECT_DIR$/src/test/java/com/sndj/recipe/innerclssss/TestClass.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,54 +29,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="GenericType.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/innerclssss/GenericType.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="84" lean-forward="false" selection-start-line="0" selection-start-column="84" selection-end-line="0" selection-end-column="84" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="Demo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/nio/Demo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="26" column="59" lean-forward="false" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/sndj/recipe/innerclssss/TestClass.java">
+      <file leaf-file-name="Buffer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/software/jdk1.8.0_66/src.zip!/java/nio/Buffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="55" column="12" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+            <state relative-caret-position="7938">
+              <caret line="401" column="23" lean-forward="false" selection-start-line="401" selection-start-column="15" selection-end-line="401" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/innerclssss/TestDemo.java">
+      <file leaf-file-name="ByteBuffer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/software/jdk1.8.0_66/src.zip!/java/nio/ByteBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="5292">
+              <caret line="277" column="23" lean-forward="false" selection-start-line="277" selection-start-column="19" selection-end-line="277" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Top.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/innerclssss/Top.java">
+      <file leaf-file-name="HeapByteBuffer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/software/jdk1.8.0_66/src.zip!/java/nio/HeapByteBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="651">
+              <caret line="56" column="12" lean-forward="false" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParentDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/innerclssss/ParentDemo.java">
+      <file leaf-file-name="RandomAccessFile.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/software/jdk1.8.0_66/src.zip!/java/io/RandomAccessFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="5187">
+              <caret line="271" column="30" lean-forward="false" selection-start-line="271" selection-start-column="25" selection-end-line="271" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileChannel.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/software/jdk1.8.0_66/src.zip!/java/nio/channels/FileChannel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8400">
+              <caret line="432" column="25" lean-forward="false" selection-start-line="432" selection-start-column="25" selection-end-line="432" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -96,8 +105,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>isNameP</find>
-      <find>orelse</find>
       <find>predicate</find>
       <find>filter</find>
       <find>toList</find>
@@ -126,6 +133,8 @@
       <find>recipe</find>
       <find>_</find>
       <find>?</find>
+      <find>toString</find>
+      <find>getTYpeName</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,10 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/sndj/recipe/ognl/User.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/sndj/recipe/ognl/Person.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/sndj/recipe/ognl/A.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sndj/recipe/ognl/OgnlTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sndj/recipe/ognl/Company.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sndj/recipe/ognl/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sndj/recipe/ognl/User.java" />
@@ -194,8 +199,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sndj/recipe/generictype/Demo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sndj/recipe/generictype/Demo1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sndj/recipe/innerclssss/TestDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sndj/recipe/innerclssss/Type.md" />
         <option value="$PROJECT_DIR$/src/test/java/com/sndj/recipe/innerclssss/TestClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sndj/recipe/innerclssss/ParameterizedType.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/sndj/recipe/innerclssss/GenericType.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sndj/recipe/doc/内部类.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sndj/recipe/nio/Demo.java" />
       </list>
     </option>
   </component>
@@ -235,7 +244,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="247" />
+    <option name="x" value="510" />
+    <option name="y" value="64" />
     <option name="width" value="1400" />
     <option name="height" value="1038" />
   </component>
@@ -276,6 +286,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -307,7 +320,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="innerclssss" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="recipe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="recipe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="recipe" type="b2602c69:ProjectViewProjectNode" />
@@ -407,9 +428,6 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -427,11 +445,11 @@
       <recent name="com.sndj.recipe.initial" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\recipe\src\main\java\com\sndj\recipe\doc" />
       <recent name="D:\workspace\recipe" />
       <recent name="D:\workspace\recipe\src\main\java\com\sndj\recipe\innerclssss" />
       <recent name="D:\workspace\recipe\src\main\java\com\sndj\recipe\ognl" />
       <recent name="D:\workspace\recipe\src\main\resources\META-INF" />
-      <recent name="D:\workspace\recipe\src\main\java\com\sndj\recipe\proxy\dynamicproxy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -446,59 +464,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestClass.getInterfaces">
+  <component name="RunManager" selected="Application.Demo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="CoderUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.sndj.recipe.ognl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.sndj.recipe.ognl.CoderUtils" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="recipe" />
-      <envs />
-    </configuration>
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.sndj.recipe.generictype.*" />
+          <option name="PATTERN" value="com.sndj.recipe.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.sndj.recipe.generictype.Demo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="recipe" />
-      <envs />
-    </configuration>
-    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.sndj.recipe.generictype.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.sndj.recipe.generictype.Demo1" />
+      <option name="MAIN_CLASS_NAME" value="com.sndj.recipe.nio.Demo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -597,20 +577,20 @@
         </option>
       </method>
     </configuration>
-    <configuration name="OgnlTest.testaa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.sndj.recipe.ognl.*" />
+          <option name="PATTERN" value="com.sndj.recipe.innerclssss.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="recipe" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.sndj.recipe.ognl" />
-      <option name="MAIN_CLASS_NAME" value="com.sndj.recipe.ognl.OgnlTest" />
-      <option name="METHOD_NAME" value="testaa" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.sndj.recipe.innerclssss" />
+      <option name="MAIN_CLASS_NAME" value="com.sndj.recipe.innerclssss.TestClass" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -647,6 +627,56 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="TestClass.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.sndj.recipe.innerclssss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="recipe" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.sndj.recipe.innerclssss" />
+      <option name="MAIN_CLASS_NAME" value="com.sndj.recipe.innerclssss.TestClass" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestClass.testParameterizedType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.sndj.recipe.innerclssss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="recipe" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.sndj.recipe.innerclssss" />
+      <option name="MAIN_CLASS_NAME" value="com.sndj.recipe.innerclssss.TestClass" />
+      <option name="METHOD_NAME" value="testParameterizedType" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -666,18 +696,6 @@
       </option>
       <envs />
       <patterns />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="test" />
-      <envs />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -915,22 +933,34 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="test" />
+      <envs />
+    </configuration>
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="GlassFish Server.GlassFish 4.1.2" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0.84" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.OgnlTest.testaa" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CoderUtils" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Demo" />
-      <item index="5" class="java.lang.String" itemvalue="Application.Demo1" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.TestClass.getInterfaces" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestClass.getInterfaces" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestClass.test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestClass" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.TestClass.testParameterizedType" />
+      <item index="6" class="java.lang.String" itemvalue="Application.Demo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestClass.getInterfaces" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Demo1" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Demo" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CoderUtils" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.OgnlTest.testaa" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Demo" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestClass.testParameterizedType" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestClass" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestClass.test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestClass.getInterfaces" />
       </list>
     </recent_temporary>
   </component>
@@ -1006,7 +1036,9 @@
       <workItem from="1524712216080" duration="6071000" />
       <workItem from="1525059010176" duration="187000" />
       <workItem from="1525266560729" duration="4387000" />
-      <workItem from="1525353235460" duration="3458000" />
+      <workItem from="1525353235460" duration="9109000" />
+      <workItem from="1525422234675" duration="2841000" />
+      <workItem from="1525440289563" duration="51000" />
     </task>
     <task id="LOCAL-00001" summary="apprehensive">
       <created>1521076659311</created>
@@ -1092,43 +1124,50 @@
       <option name="project" value="LOCAL" />
       <updated>1525266672935</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="xml 1">
+      <created>1525356727721</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1525356727721</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OgnlTest_testaa - 2018.04.26 at 12h 32m 52s.xml">
-      <configuration name="OgnlTest.testaa" configurationId="JUnit" />
+    <history-entry file="TestClass_testParameterizedType - 2018.05.03 at 23h 31m 10s.xml">
+      <configuration name="TestClass.testParameterizedType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClass - 2018.04.22 at 23h 14m 45s.xml">
-      <configuration name="TestClass" configurationId="JUnit" />
+    <history-entry file="TestClass_testParameterizedType - 2018.05.03 at 23h 31m 18s.xml">
+      <configuration name="TestClass.testParameterizedType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClass - 2018.04.22 at 23h 15m 39s.xml">
-      <configuration name="TestClass" configurationId="JUnit" />
+    <history-entry file="TestClass_testParameterizedType - 2018.05.03 at 23h 31m 23s.xml">
+      <configuration name="TestClass.testParameterizedType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClass - 2018.04.22 at 23h 37m 07s.xml">
-      <configuration name="TestClass" configurationId="JUnit" />
+    <history-entry file="TestClass_testParameterizedType - 2018.05.03 at 23h 31m 26s.xml">
+      <configuration name="TestClass.testParameterizedType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClass - 2018.04.22 at 23h 37m 47s.xml">
-      <configuration name="TestClass" configurationId="JUnit" />
+    <history-entry file="TestClass_testParameterizedType - 2018.05.03 at 23h 31m 36s.xml">
+      <configuration name="TestClass.testParameterizedType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClass_getInterfaces - 2018.04.22 at 23h 05m 54s.xml">
-      <configuration name="TestClass.getInterfaces" configurationId="JUnit" />
+    <history-entry file="TestClass_testParameterizedType - 2018.05.03 at 23h 31m 48s.xml">
+      <configuration name="TestClass.testParameterizedType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClass_getInterfaces - 2018.04.22 at 23h 10m 37s.xml">
-      <configuration name="TestClass.getInterfaces" configurationId="JUnit" />
+    <history-entry file="TestClass_testParameterizedType - 2018.05.03 at 23h 32m 09s.xml">
+      <configuration name="TestClass.testParameterizedType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClass_getInterfaces - 2018.04.22 at 23h 36m 19s.xml">
-      <configuration name="TestClass.getInterfaces" configurationId="JUnit" />
+    <history-entry file="TestClass_testParameterizedType - 2018.05.03 at 23h 32m 28s.xml">
+      <configuration name="TestClass.testParameterizedType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClass_getInterfaces - 2018.05.03 at 21h 43m 54s.xml">
-      <configuration name="TestClass.getInterfaces" configurationId="JUnit" />
+    <history-entry file="TestClass_testParameterizedType - 2018.05.03 at 23h 35m 06s.xml">
+      <configuration name="TestClass.testParameterizedType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestClass_getInterfaces - 2018.05.03 at 21h 46m 35s.xml">
-      <configuration name="TestClass.getInterfaces" configurationId="JUnit" />
+    <history-entry file="TestClass_testParameterizedType - 2018.05.03 at 23h 36m 21s.xml">
+      <configuration name="TestClass.testParameterizedType" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="348658000" />
+    <option name="totallyTimeSpent" value="357201000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1143,76 +1182,40 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36448598" sideWeight="0.50428265" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38551402" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3308351" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2028908" sideWeight="0.49312377" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3656542" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24766356" sideWeight="0.49571735" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37032712" sideWeight="0.49571735" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37967288" sideWeight="0.49785867" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26391864" sideWeight="0.4675835" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24036403" sideWeight="0.50687623" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30299786" sideWeight="0.5" order="11" side_tool="false" content_ui="combo" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36448598" sideWeight="0.50428265" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38551402" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3308351" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30299786" sideWeight="0.5" order="11" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27034262" sideWeight="0.4675835" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24036403" sideWeight="0.50687623" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2028908" sideWeight="0.49312377" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3656542" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42056075" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26391864" sideWeight="0.5" order="11" side_tool="false" content_ui="combo" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24766356" sideWeight="0.49571735" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37967288" sideWeight="0.49785867" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26391864" sideWeight="0.4675835" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24036403" sideWeight="0.50687623" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1307,152 +1310,11 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="74" />
+      <option name="time" value="84" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/software/jdk1.8.0_66/src.zip!/java/lang/Boolean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="63" column="86" lean-forward="false" selection-start-line="63" selection-start-column="69" selection-end-line="63" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/jdk1.8.0_66/src.zip!/java/lang/reflect/Type.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/jdk1.8.0_66/src.zip!/java/lang/reflect/AnnotatedElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4284">
-          <caret line="237" column="17" lean-forward="false" selection-start-line="237" selection-start-column="17" selection-end-line="237" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/jdk1.8.0_66/src.zip!/java/lang/reflect/ParameterizedType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="52" column="18" lean-forward="false" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/servlet/Numeric.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/validator/ValidationResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="159" column="21" lean-forward="false" selection-start-line="159" selection-start-column="21" selection-end-line="159" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/validator/Password.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/validator/PasswordValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/validator/SimpleEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="33" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="28" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/validator/ValidationUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="21" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/spring/HomeRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/validator/ExtendEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="0" selection-start-column="2" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/spring/HomeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/spring/HomeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="27" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/spring/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="26" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.14.RELEASE/spring-webmvc-4.3.14.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerMapping.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="48" column="28" lean-forward="false" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/spring/AppInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-358">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sndj/recipe/validator/ValidationUtilsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/servlet/HelloServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
@@ -1475,18 +1337,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/ognl/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/software/jdk1.8.0_66/src.zip!/java/lang/Character.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2751">
           <caret line="157" column="49" lean-forward="false" selection-start-line="157" selection-start-column="41" selection-end-line="157" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1502,7 +1356,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60081">
           <caret line="2896" column="18" lean-forward="false" selection-start-line="2896" selection-start-column="18" selection-end-line="2896" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1529,55 +1382,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/innerclssss/AnnotatedElement.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="567">
-            <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-            <folding>
-              <marker date="1524327057189" expanded="true" signature="313:393" ph="@{...}" />
-              <marker date="1524327057189" expanded="true" signature="411:434" ph="{...}" />
-              <marker date="1524327057189" expanded="true" signature="436:516" ph="@{...}" />
-              <marker date="1524327057189" expanded="true" signature="534:557" ph="{...}" />
-              <marker date="1524327057189" expanded="true" signature="933:1013" ph="@{...}" />
-              <marker date="1524327057189" expanded="true" signature="1452:2563" ph="{...}" />
-              <marker date="1524327057189" expanded="true" signature="1525:2561" ph="{...}" />
-              <marker date="1524327057189" expanded="true" signature="1527:1654" ph="//..." />
-              <marker date="1524327057189" expanded="true" signature="1745:1791" ph="{...}" />
-              <marker date="1524327057189" expanded="true" signature="1940:1986" ph="{...}" />
-              <marker date="1524327057189" expanded="true" signature="2080:2126" ph="{...}" />
-              <marker date="1524327057189" expanded="true" signature="2129:2258" ph="//..." />
-              <marker date="1524327057189" expanded="true" signature="2354:2400" ph="{...}" />
-              <marker date="1524327057189" expanded="true" signature="2565:2645" ph="@{...}" />
-              <marker date="1524327057189" expanded="true" signature="2663:2686" ph="{...}" />
-              <marker date="1524327057189" expanded="true" signature="2688:2768" ph="@{...}" />
-              <marker date="1524327057189" expanded="true" signature="2786:2809" ph="{...}" />
-              <marker date="1524327057189" expanded="true" signature="2851:2902" ph="@{...}" />
-              <marker date="1524327057189" expanded="true" signature="2989:3012" ph="{...}" />
-              <marker date="1524327057189" expanded="true" signature="3079:3103" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/innerclssss/AnnotatedElement.md" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/innerclssss/grammar.md" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/innerclssss/innerclass.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="352">
-            <caret line="47" column="10" lean-forward="true" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/software/jdk1.8.0_66/src.zip!/java/lang/Comparable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="137" column="0" lean-forward="true" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1585,33 +1395,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="28" />
-          <folding>
-            <element signature="e#285#302#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/jdk1.8.0_66/src.zip!/java/lang/reflect/TypeVariable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="50" column="48" lean-forward="false" selection-start-line="50" selection-start-column="48" selection-end-line="50" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/jdk1.8.0_66/src.zip!/java/lang/reflect/GenericDeclaration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="47" column="36" lean-forward="false" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/jdk1.8.0_66/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3024">
-          <caret line="211" column="19" lean-forward="false" selection-start-line="211" selection-start-column="19" selection-end-line="211" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1619,9 +1402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1629,76 +1409,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1467">
           <caret line="91" column="19" lean-forward="false" selection-start-line="91" selection-start-column="19" selection-end-line="91" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/innerclssss/Class.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-441">
-            <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="5" />
-            <folding>
-              <marker date="1525266893218" expanded="true" signature="302:338" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="363:398" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="427:462" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="531:647" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="593:639" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="1612:1620" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="1645:1699" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="1681:1693" ph="{}" />
-              <marker date="1525266893218" expanded="true" signature="1773:1972" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="2784:3047" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="2810:2818" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="2848:2856" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="2925:3045" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="2991:3037" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="3099:3171" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="3124:3132" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="3161:3169" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="3188:3260" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="3213:3221" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="3250:3258" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="3937:4109" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="4252:4402" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="4527:4886" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="4804:4880" ph="//..." />
-              <marker date="1525266893218" expanded="true" signature="5009:5192" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="5056:5190" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="5493:5977" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="5540:5975" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="6267:6715" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="6314:6713" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="6632:6707" ph="//..." />
-              <marker date="1525266893218" expanded="true" signature="7034:7239" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="7358:7806" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="7406:7777" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="7796:7804" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="7822:7851" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="7841:7849" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="7987:8441" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="8051:8439" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="8184:8272" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="8343:8431" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="8454:8472" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="8484:8604" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="8569:8602" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="8923:9131" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="8998:9042" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="9045:9125" ph="//..." />
-              <marker date="1525266893218" expanded="true" signature="9224:9521" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="9285:9519" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="9364:9513" ph="//..." />
-              <marker date="1525266893218" expanded="true" signature="9687:9884" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="9748:9882" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="10146:10303" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="11236:11789" ph="{...}" />
-              <marker date="1525266893218" expanded="true" signature="11594:11783" ph="//..." />
-            </folding>
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1714,7 +1424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="456" column="19" lean-forward="false" selection-start-line="456" selection-start-column="19" selection-end-line="456" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1722,9 +1431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-63">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#718#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1732,7 +1438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1740,7 +1445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1748,7 +1452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1756,7 +1459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1764,26 +1466,210 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="563" column="6" lean-forward="false" selection-start-line="563" selection-start-column="6" selection-end-line="563" selection-end-column="6" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.46/fastjson-1.2.46.jar!/com/alibaba/fastjson/util/ParameterizedTypeImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.14.RELEASE/spring-core-4.3.14.RELEASE-sources.jar!/org/springframework/core/ResolvableType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="1493" column="39" lean-forward="false" selection-start-line="1493" selection-start-column="25" selection-end-line="1493" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/ognl/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/jdk1.8.0_66/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="374" column="14" lean-forward="false" selection-start-line="374" selection-start-column="14" selection-end-line="374" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/innerclssss/Class.md" />
+    <entry file="jar://D:/software/jdk1.8.0_66/src.zip!/java/lang/reflect/GenericDeclaration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="47" column="46" lean-forward="false" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/jdk1.8.0_66/jre/lib/rt.jar!/sun/reflect/generics/scope/AbstractScope.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/jdk1.8.0_66/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="234" column="18" lean-forward="false" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/jdk1.8.0_66/src.zip!/java/lang/reflect/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4389">
+          <caret line="245" column="0" lean-forward="false" selection-start-line="245" selection-start-column="0" selection-end-line="245" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/jdk1.8.0_66/jre/lib/rt.jar!/sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="89" column="36" lean-forward="false" selection-start-line="89" selection-start-column="29" selection-end-line="89" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/sndj/recipe/innerclssss/TestClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="55" column="12" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+        <state relative-caret-position="1092">
+          <caret line="58" column="62" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/jdk1.8.0_66/src.zip!/java/lang/reflect/ParameterizedType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="46" column="45" lean-forward="false" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/jdk1.8.0_66/src.zip!/java/lang/reflect/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/jdk1.8.0_66/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/innerclssss/Type.md" />
+    <entry file="jar://D:/software/jdk1.8.0_66/jre/lib/rt.jar!/sun/reflect/generics/scope/ClassScope.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/innerclssss/ParameterizedType.md" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/innerclssss/GenericType.md" />
+    <entry file="jar://D:/software/jdk1.8.0_66/src.zip!/java/lang/reflect/TypeVariable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="59" column="40" lean-forward="false" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/doc/ParameterizedType.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="126">
+            <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            <folding>
+              <marker date="1525362196992" expanded="false" signature="1331:1502" ph="..." />
+              <marker date="1525362196992" expanded="true" signature="1504:1540" ph="/**...*/" />
+              <marker date="1525362196992" expanded="true" signature="1565:3655" ph="{...}" />
+              <marker date="1525362196992" expanded="true" signature="1619:3012" ph="{...}" />
+              <marker date="1525362196992" expanded="true" signature="2359:2607" ph="{...}" />
+              <marker date="1525362196992" expanded="true" signature="2377:2490" ph="//..." />
+              <marker date="1525362196992" expanded="true" signature="3097:3653" ph="{...}" />
+              <marker date="1525362196992" expanded="true" signature="3685:4181" ph="{...}" />
+              <marker date="1525362196992" expanded="true" signature="4172:4179" ph="{...}" />
+              <marker date="1525362196992" expanded="true" signature="8755:8838" ph="{...}" />
+              <marker date="1525362196992" expanded="true" signature="8899:9679" ph="{...}" />
+              <marker date="1525362196992" expanded="true" signature="8962:9621" ph="{...}" />
+              <marker date="1525362196992" expanded="true" signature="9649:9677" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/innerclssss/InnerClass.md" />
+    <entry file="jar://D:/software/jdk1.8.0_66/src.zip!/java/nio/channels/FileChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8400">
+          <caret line="432" column="25" lean-forward="false" selection-start-line="432" selection-start-column="25" selection-end-line="432" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/innerclssss/GenericType.md">
+    <entry file="jar://D:/software/jdk1.8.0_66/src.zip!/java/io/RandomAccessFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5187">
+          <caret line="271" column="30" lean-forward="false" selection-start-line="271" selection-start-column="25" selection-end-line="271" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/jdk1.8.0_66/src.zip!/java/nio/HeapByteBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="56" column="12" lean-forward="false" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/jdk1.8.0_66/src.zip!/java/nio/ByteBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5292">
+          <caret line="277" column="23" lean-forward="false" selection-start-line="277" selection-start-column="19" selection-end-line="277" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/jdk1.8.0_66/src.zip!/java/nio/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7938">
+          <caret line="401" column="23" lean-forward="false" selection-start-line="401" selection-start-column="15" selection-end-line="401" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/doc/内部类.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="84" lean-forward="false" selection-start-line="0" selection-start-column="84" selection-end-line="0" selection-end-column="84" />
-            <folding />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="252">
+            <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+            <folding>
+              <marker date="1525423647078" expanded="true" signature="94:102" ph="{...}" />
+              <marker date="1525423647078" expanded="true" signature="134:142" ph="{...}" />
+              <marker date="1525423647078" expanded="true" signature="161:169" ph="{...}" />
+              <marker date="1525423647078" expanded="true" signature="212:220" ph="{...}" />
+            </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sndj/recipe/nio/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="26" column="59" lean-forward="false" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

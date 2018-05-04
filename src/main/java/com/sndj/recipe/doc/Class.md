@@ -167,7 +167,7 @@ class com.sndj.recipe.innerclssss.TestClass$BeanA
 3. 如果当前类是数组或原生数据类型或为空，返回数组长度为零
 
 ##### getDeclaringClass()
-获取一个内部类或内部接口的外部类.
+获取一个内部类或内部接口的外部类(不能获取匿名内部内的外部类).
 
 
 ### 常规动作
@@ -323,6 +323,7 @@ public class TestClass {
 #### getEnclosingClass()
 1. 获取当前内部类或内部接口的第一层外部类或外部接口。
 2. 如果非内部类或内部接口，直接返回`null`
+3. 可以获取匿名内部类的外部类
 ```java
 public class TestClass {
     @Test

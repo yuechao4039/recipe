@@ -1,3 +1,15 @@
+#GenericDeclaration
+GenericDeclaration 该接口用来定义哪些对象上是可以声明范型变量，
+目前实现 GenericDeclaration 接口的类包括 Class、Method、Constructor。
+
+```java
+public interface GenericDeclaration extends AnnotatedElement {
+    // 用来获取该 GenericDeclaration 的范型变量声明
+    public TypeVariable<?>[] getTypeParameters();
+}
+```
+
+```java
 package com.sndj.recipe.innerclssss;
 
 import java.io.Serializable;
@@ -31,4 +43,4 @@ public class TestClass<A extends List & Serializable, C> {
         return null;
     }
 }
-
+```

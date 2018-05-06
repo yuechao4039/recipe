@@ -1,4 +1,4 @@
-# GenericArrayType
+# java.lang.reflect.GenericArrayType
 范型数组，组成数组的元素中有范型则实现了该接口；
 它的组成元素是 ParameterizedType 或 TypeVariable 类型
 

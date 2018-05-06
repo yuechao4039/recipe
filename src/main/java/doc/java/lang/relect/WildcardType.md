@@ -1,4 +1,4 @@
-#WildcardType(通配符的类型)
+# java.lang.reflect.WildcardType(通配符的类型)
 extends 用来指定上边界，没有指定的话上边界默认是 Object，
 super 用来指定下边界，没有指定的话为 null。
 

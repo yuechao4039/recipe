@@ -1,4 +1,4 @@
-#GenericDeclaration
+# java.lang.reflect.GenericDeclaration
 GenericDeclaration 该接口用来定义哪些对象上是可以声明范型变量，
 目前实现 GenericDeclaration 接口的类包括 Class、Method、Constructor。
 

@@ -1,6 +1,5 @@
 package com.sndj.recipe.nio;
 
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
@@ -16,19 +15,26 @@ public class Demo {
         FileChannel inChannel = aFile.getChannel();
 
         //create buffer with capacity of 48 bytes
-        ByteBuffer buf = ByteBuffer.allocate(48);
+        ByteBuffer buf = ByteBuffer.allocate(20);
+        buf.limit(10);
+
+        System.out.println(buf);
 
         int bytesRead = inChannel.read(buf); //read into buffer.
+        System.out.println(buf);
         while (bytesRead != -1) {
-
             buf.flip();  //make buffer ready for read
-
+            System.out.println(buf);
+            StringBuilder sb = new StringBuilder();
             while(buf.hasRemaining()){
-                System.out.print((char) buf.get()); // read 1 byte at a time
+                sb.append((char) buf.get()); // read 1 byte at a time
             }
+            System.out.println(sb.toString());
 
             buf.clear(); //make buffer ready for writing
+            System.out.println(buf);
             bytesRead = inChannel.read(buf);
+            System.out.println(buf);
         }
         aFile.close();
     }

@@ -1,4 +1,4 @@
-# TypeVariable
+# java.lang.reflect.TypeVariable
 TypeVariable 描述所谓范型变量，也就是 <E extends List> 或者 <E
 
 #### Type[] getBounds()
